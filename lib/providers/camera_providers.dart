@@ -18,7 +18,7 @@ final cameraControllerProvider = FutureProvider.autoDispose<CameraController>((
   final controller = CameraController(
     desc,
     ResolutionPreset.medium,
-    enableAudio: false,
+    enableAudio: true,
   );
   await controller.initialize();
 
