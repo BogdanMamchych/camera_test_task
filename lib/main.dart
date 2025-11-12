@@ -1,6 +1,6 @@
-import 'package:camera_test_task/ui/camera_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import '/ui/camera_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Camera + ImagePicker (Riverpod)',
+      title: 'Camera MVVM Demo',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: const CameraPage(),
     );
